@@ -1,0 +1,29 @@
+Source: hy
+Section: devel
+Priority: extra
+Maintainer: Paul Tagliamonte <paultag@debian.org>
+Build-Depends: debhelper (>= 9),
+ python-all (>= 2.6~),
+ python-setuptools,
+ python-coverage,
+ python-nose,
+ python-sphinx (>= 1.0.7+dfsg),
+Standards-Version: 3.9.4
+Homepage: http://hylang.org/
+X-Python-Version: >= 2.6
+
+Package: hy
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: compiler for the Hy lisp variant to Python AST / code.
+ lots of
+ descrip
+ tion
+ here.
+
+# needs:
+#
+#  - hy
+#  - python-hy
+#  - python3-hy
+#  - hy-doc

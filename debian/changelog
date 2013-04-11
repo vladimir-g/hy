@@ -1,0 +1,5 @@
+hy ({full-version}) {suite}; urgency=low
+
+  * {{changelog-entry}}
+
+ -- {{author}}  {{rfc-2822-date}}
